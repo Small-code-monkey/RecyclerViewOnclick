@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         superAdapter.setonclick(new SuperOnclick() {
             @Override
             public void RVOnclick(View view, int postsion) {
-                Toast.makeText(context, "点击是=" + postsion, Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "点击是=" + strings[postsion], Toast.LENGTH_SHORT).show();
             }
         });
     }
