@@ -8,5 +8,5 @@ import android.view.View;
  */
 
 public interface SuperOnclick {
-    void RVOnclick(View view, int postsion);
+    void RVOnclick(View view, int position);
 }
